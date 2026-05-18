@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Md. Khairul Bashar Bhuiyan"
-  pronouns         : "he/hIM"
+  pronouns         : "he/him"
   bio              : "Md. Khairul Bashar Bhuiyan is an undergraduate research assistant at the Control Application and Research Center (CARC). He has received a Bachelor’s degree in Electrical and Electronics Engineering from Brac University and a Master’s degree from the Royal University of Dhaka(RUD). He has previously worked on projects related to a satellite training kit and a lie-detector polygraph machine. He is currently working on projects related to Drone communication and Remote sensing. He is interested in research fields such as Machine learning, IoT and satellite communication."
   location         : "Dhaka, Bangladesh"
   employer         : "Brac University"
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0009-0000-5968-1048"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #URL
   researchgate     : "https://www.researchgate.net/profile/Md-Bhuiyan-101?ev=hdr_xprf"
   scopus           : # URL
   zotero           : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
