@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "MD. KHAIRUL BASHAR BHUIYAN"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Md. Khairul Bashar Bhuiyan"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -23,26 +23,26 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  avatar           : "profile.jpg"
+  name             : "Md. Khairul Bashar Bhuiyan"
+  pronouns         : "he/hIM"
+  bio              : "Md. Khairul Bashar Bhuiyan is an undergraduate research assistant at the Control Application and Research Center (CARC). He has received a Bachelor’s degree in Electrical and Electronics Engineering from Brac University and a Master’s degree from the Royal University of Dhaka(RUD). He has previously worked on projects related to a satellite training kit and a lie-detector polygraph machine. He is currently working on projects related to Drone communication and Remote sensing. He is interested in research fields such as Machine learning, IoT and satellite communication."
+  location         : "Dhaka, Bangladesh"
+  employer         : "Brac University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "kbashar707@gmail.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=j8KDfxUAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0000-5968-1048"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Md-Bhuiyan-101?ev=hdr_xprf"
   scopus           : # URL
   zotero           : # URL
 
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/KBhuiyan13"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/khairul-bashar-399aab102"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
