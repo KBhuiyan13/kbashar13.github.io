@@ -30,7 +30,7 @@ author:
   location         : "Dhaka, Bangladesh"
   employer         : "Brac University"
   uri              : # URL
-  email            : "kbashar707@gmail.com" 
+  email            : "kbashar707@gmail.com"
 
   # Academic websites
   academia         : # URL
@@ -87,7 +87,7 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
