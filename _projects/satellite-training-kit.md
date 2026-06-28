@@ -27,3 +27,5 @@ The Satellite Training Kit is designed to help students understand satellite com
 - Hardware design
 - Firmware development
 - System integration
+
+[GitHub](https://github.com/KBhuiyan13/Satellite-Training-Kit)

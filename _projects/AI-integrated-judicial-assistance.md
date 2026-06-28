@@ -1,3 +1,4 @@
+---
 title: "Artificially Intelligent System to Pass on Unbiased Judgements to Criminal Cases"
 excerpt: "A multi-modal polygraph system integrating body resistance, ECG-based heart rate monitoring, and ML-driven facial expression recognition to assist the judicial system in detecting stress and deception."
 collection: projects
