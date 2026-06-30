@@ -12,9 +12,9 @@ status: Published
 year: 2024
 selected: true
 
-venue: "Sustainable Computing: Informatics and Systems"
+venue: "**Sustainable Computing: Informatics and Systems**"
 volume: "41"
-issue: "C"
+issue: ""
 pages: "100942"
 
 paperurl: "https://www.sciencedirect.com/science/article/abs/pii/S2210537923000975"

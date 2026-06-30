@@ -12,9 +12,9 @@ status: Published
 year: 2024
 selected: true
 
-venue: "Future Generation Computer Systems"
+venue: "**Future Generation Computer Systems**"
 volume: "150"
-issue: "C"
+issue: ""
 pages: "232-242"
 
 paperurl: "https://www.sciencedirect.com/science/article/abs/pii/S0167739X23003266"
