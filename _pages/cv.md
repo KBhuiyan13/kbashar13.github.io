@@ -11,35 +11,56 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Prospective Ph.D student
+
+* Royal University of Dhaka(RUD)
+- MSc in Computer Science, 2025
+
+* Brac University
+- BSc in Electrical and Electronic Engineering, 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* [Brain System](https://brainsystemltd.com/)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  - Machine Learning Engineer
+  - April, 2026 - Present
+  * Duties includes: 
+  - ERP Implementation and Custom AI development.
+  - Big-Data and Data Mining and LLM model development.
+   
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* [Zylo](https://zylo-lab.com/)
+  - Big-Data Engineer
+  - September, 2024 - December, 2025
+  * Duties included: 
+  - Data Visualization, Data Pipe-line and Warehousing.
+  - Data Engineering: ETL, Streaming.
+  - Data Strategy and Architecture.
+
+* [Brain System](https://brainsystemltd.com/)
+  - Internship 
+  - August, 2023 - September, 2024
+  * Duties included: 
+  - Data Structure and Data Pre-processing.
+  - Machine Learning Applications.
+
+* [Control Application and Research Center(CARC)](https://www.bracu.ac.bd/departments/control-and-applications-research-centre), [Brac University](https://www.bracu.ac.bd/)
+  - Undergraduate Research Assistant
+  - September, 2021 - July, 2022
+  * Duties included: 
+  - Helping the professor supervising the undergraduate thesis groups.
+  - Conducting research regarding applications of renewable energy and control systems.
+  
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming: Java (Basic), C (Basic), Python (Intermediate)
+* Database:  MySQL, MongoDB, NoSQL
+* Software: SolidWorks, MATLAB Simulink, IBM SPSS, IBM QISKIT, ArcGIS, Cloudera Manager, HDFS Architecture, Starburst, Apache Kafka, Confluent Kafka, Hive, Spark, LaTex 
+* IDE: Arduino, Proteus, PyCharm, Jupyter Notebook
+* Library :  Numpy, Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTourch, Django  
+* Soft Skills: Presentation Skill, Team Work, Adaptability, Communication Skill 
 
 Publications
 ======
