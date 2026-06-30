@@ -16,6 +16,7 @@ venue: "Sustainable Computing: Informatics and Systems"
 volume: "41"
 issue: "C"
 pages: "100942"
+
 paperurl: "https://www.sciencedirect.com/science/article/abs/pii/S2210537923000975"
 doi: "https://doi.org/10.1016/j.suscom.2023.100942"
 code: ""
