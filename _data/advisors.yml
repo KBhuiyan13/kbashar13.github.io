@@ -1,0 +1,34 @@
+- name: AKM Abdul Malek Azad
+  title: Professor
+  institution: BRAC University
+  photo: /images/people/azad.jpg
+  email: akmam.azad@gmail.com
+  website: https://www.bracu.ac.bd/about/people/akm-abdul-malek-azad-phd
+  scholar: https://scholar.google.com/citations?user=eFhVgtgAAAAJ&hl=en
+  role: Research Supervisor
+  research: Satellite Training Kit
+  description: Research mentor in IoT, Renewable Energy and Control System
+
+
+- name: Mahdy Rahman Chowdhury
+  title: Professor
+  institution: BRAC University
+  photo: /images/people/mahdy.jpg
+  email: mailto:mahdy.chowdhury@northsouth.edu
+  website: http://ece.northsouth.edu/people/mahdy-rahman-chowdhury/
+  scholar: https://scholar.google.com.sg/citations?hl=en&user=PxNOguMAAAAJ&view_op=list_works
+  role: Research Supervisor
+  research: Quantum Computing
+  description: Research mentor in Quantum Machine Learning and Quantum Computing
+
+
+- name: Zafril Rizal M Azmi
+  title: Professor
+  institution: Universiti Malaysia Pahang
+  photo: /images/people/zafril.jpg
+  email: zafril@ump.edu.my
+  website: 
+  scholar: https://scholar.google.com/citations?user=dSyK9MMAAAAJ&hl=en
+  role: Collaborator
+  research: Cloud Computing
+  description: Research collaborator on cloud scheduling.

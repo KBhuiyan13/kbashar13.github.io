@@ -5,22 +5,60 @@ permalink: /people/
 author_profile: true
 ---
 
-# People
+# Research Advisors & Supervisors
 
-Coming soon.
+<div class="people-grid">
 
-## PhD Students
+{% for person in site.data.advisors %}
 
-None yet.
+<div class="person-card">
 
-## Master's Students
+<img src="{{ person.photo }}" class="person-photo">
 
-None yet.
+## {{ person.name }}
 
-## Undergraduate Students
+**{{ person.title }}**
 
-None yet.
+{{ person.institution }}
 
-## Collaborators
+📧 {{ person.email }}
 
-- Your collaborators here
+[Website]({{ person.website }})
+
+[Google Scholar]({{ person.scholar }})
+
+**Role:** {{ person.role }}
+
+**Research:** {{ person.research }}
+
+{{ person.description }}
+
+</div>
+
+{% endfor %}
+
+</div>
+
+---
+
+# Research / Project Collaborators
+
+<div class="collab-grid">
+
+{% for person in site.data.collaborators %}
+
+<div class="collab-card">
+
+### {{ person.name }}
+
+**{{ person.institution }}**
+
+*{{ person.project }}*
+
+{{ person.publication }}
+
+</div>
+
+{% endfor %}
+
+</div>
