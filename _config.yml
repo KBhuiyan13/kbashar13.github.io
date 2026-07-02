@@ -252,10 +252,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _awards
   - scope:
       path: ""
-      type: portfolio
+      type: awards
     values:
       layout: single
       author_profile: true
