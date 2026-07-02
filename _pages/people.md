@@ -3,9 +3,11 @@ layout: archive
 title: "People"
 permalink: /people/
 author_profile: true
+css:
+  - /assets/css/people.css
 ---
 
-# Research Advisors & Supervisors
+<h1>Research Advisors & Supervisors</h1>
 
 <div class="people-grid">
 
@@ -13,25 +15,29 @@ author_profile: true
 
 <div class="person-card">
 
-<img src="{{ person.photo }}" class="person-photo">
+  <img src="{{ person.photo }}" class="person-photo" alt="{{ person.name }}">
 
-## {{ person.name }}
+  <h3>{{ person.name }}</h3>
 
-**{{ person.title }}**
+  <p>
+    <strong>{{ person.title }}</strong><br>
+    {{ person.institution }}
+  </p>
 
-{{ person.institution }}
+  <p>
+    📧 <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+  </p>
 
-📧 {{ person.email }}
+  <p>
+    <a href="{{ person.website }}" target="_blank">Website</a> ·
+    <a href="{{ person.scholar }}" target="_blank">Google Scholar</a>
+  </p>
 
-[Website]({{ person.website }})
+  <p><strong>Role:</strong> {{ person.role }}</p>
 
-[Google Scholar]({{ person.scholar }})
+  <p><strong>Research:</strong> {{ person.research }}</p>
 
-**Role:** {{ person.role }}
-
-**Research:** {{ person.research }}
-
-{{ person.description }}
+  <p><em>{{ person.description }}</em></p>
 
 </div>
 
@@ -39,9 +45,9 @@ author_profile: true
 
 </div>
 
----
+<hr>
 
-# Research / Project Collaborators
+<h1>Research / Project Collaborators</h1>
 
 <div class="collab-grid">
 
@@ -49,13 +55,13 @@ author_profile: true
 
 <div class="collab-card">
 
-### {{ person.name }}
+  <h3>{{ person.name }}</h3>
 
-**{{ person.institution }}**
+  <p><strong>{{ person.institution }}</strong></p>
 
-*{{ person.project }}*
+  <p><em>{{ person.project }}</em></p>
 
-{{ person.publication }}
+  <p>{{ person.publication }}</p>
 
 </div>
 
