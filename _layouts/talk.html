@@ -57,12 +57,16 @@ layout: default
 
      {% if page.slides %}
    <div class="talk-slides">
-    <iframe
-      src="{{ page.slides }}"
+    <object
+      data="{{ page.slides | relative_url }}"
+      type="application/pdf"
       width="100%"
-      height="700"
-      frameborder="0">
-    </iframe>
+      height="700">
+    <p>
+    Your browser cannot display this PDF.
+      <a href="{{ page.slides | relative_url }}">Download the slides</a>.
+    </p>
+  </object>
    </div>
     {% endif %}
 
