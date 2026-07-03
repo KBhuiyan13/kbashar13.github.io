@@ -15,7 +15,7 @@ css:
 
 <div class="person-card">
 
-  <img src="{{ person.photo }}" class="person-photo" alt="{{ person.name }}">
+  <img src="{{ person.photo | relative_url }}" class="person-photo" alt="{{ person.name }}">
 
   <h3>{{ person.name }}</h3>
 
