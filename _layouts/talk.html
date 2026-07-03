@@ -53,6 +53,17 @@ layout: default
      </div>
     {% endif %}
 
+     {% if page.slides %}
+   <div class="talk-slides">
+    <iframe
+      src="{{ page.slides }}"
+      width="100%"
+      height="700"
+      frameborder="0">
+    </iframe>
+   </div>
+    {% endif %}
+
       <section class="page__content" itemprop="text">
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
