@@ -9,18 +9,38 @@
   research: Satellite Training Kit
   description: Research mentor in IoT, Renewable Energy and Control System
 
+- name: Raihana Shams Islam Antara
+  title: Lecturer
+  institution: BRAC University
+  photo: /images/people/antara.jpg
+  email: raihanashams.antara@bracu.ac.bd
+  website: https://www.bracu.ac.bd/about/people/raihana-shams-islam-antara
+  scholar: https://scholar.google.com/citations?user=BHzUB_AAAAAJ&hl=en
+  role: Research Co-Supervisor
+  research: Satellite Training Kit
+  description: Research mentor in IoT, Satellite Systems and Wireless Communication
 
 - name: Mahdy Rahman Chowdhury
   title: Professor
   institution: North South University
   photo: /images/people/mahdy.jpg
-  email: mailto:mahdy.chowdhury@northsouth.edu
+  email: mahdy.chowdhury@northsouth.edu
   website: http://ece.northsouth.edu/people/mahdy-rahman-chowdhury/
   scholar: https://scholar.google.com.sg/citations?hl=en&user=PxNOguMAAAAJ&view_op=list_works
   role: Research Supervisor
   research: Quantum Computing
   description: Research mentor in Quantum Machine Learning and Quantum Computing
 
+- name: Anupam Kumar Bairagi
+  title: Professor
+  institution: Khulna University
+  photo: /images/people/bairagi.jpg
+  email: anupam@cse.ku.ac.bd
+  website: https://ku.ac.bd/discipline/cse/faculty/anupam
+  scholar: https://scholar.google.com/citations?user=68f3-kQAAAAJ&hl=en
+  role: Research Supervisor
+  research: Cloud Computing
+  description: Research mentor in Cloud Computing(AWS)
 
 - name: Zafril Rizal M Azmi
   title: Professor
@@ -32,3 +52,4 @@
   role: Collaborator
   research: Cloud Computing
   description: Research collaborator on cloud scheduling.
+  

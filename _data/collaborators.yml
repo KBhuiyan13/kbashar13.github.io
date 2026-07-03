@@ -1,14 +1,63 @@
 - name: Saydul Akbar Murad
   institution: University of Southern Mississippi
-  project: SG-PBFS Scheduling
-  publication: FGCS 2024
+  publication: FGCS 2024, Sustainable Computing 2024, Food Science & Nutrition 2025
 
 - name: Nick Rahimi
   institution: University of Southern Mississippi 
-  project: Gap Scheduling
-  publication: Sustainable Computing 2024
+  publication: FGCS 2024, Sustainable Computing 2024
+
+- name: Ahmad Taher Azar
+  institution: Prince Sultan University
+  publication: ICCAD 2025, Engineering Science and Technology 2025
 
 - name: Md Murad Hossain Sarker
   institution: Cumilla University
-  project: ViTDeBERTaNews
+  project: Quantum KD Strategy to detect Skin Cancer
+  publication: FGCS 2024, Sustainable Computing 2024, ICCAD 2025
+
+- name: Mohammad Junayed Hasan
+  institution: Johns Hopkins University
+  project: Quantum KD Strategy to detect Skin Cancer 
+  publication: 
+
+- name: Tipu Sultan
+  institution: Loisiana State University 
   publication: ICCAD 2025
+
+- name: Md Shariful Islam
+  institution: Bangladesh University of Business and Technology
+  publication: ICCAD 2025, Engineering Science and Technology 2025
+
+- name: Mohammad Abu Tareq Rony
+  institution: Iwoa State University 
+  publication: Engineering Science and Technology 2025
+
+- name: Walid El-Shafai
+  institution: Prince Sultan University
+  publication: ICCAD 2025, Engineering Science and Technology 2025
+
+- name: Farida Siddiqi Prity
+  institution: Netrokona University, Netrokona
+  publication: Food Science & Nutrition 2025
+  
+- name: Abu Jafar Md Muzahid
+  institution: University of Southern Mississippi
+  project: SG-PBFS Scheduling
+  publication: FGCS 2024
+
+- name: Mirza Raquib
+  institution: International Islamic University Chittagong
+  publication: Food Science & Nutrition 2025
+
+- name: Nusrat Jahan Prottasha
+  institution: University of Southern Mississippi
+  publication: FGCS 2024
+
+- name: Chakib Ben Njima
+  institution: University of Sousse, Tunisia
+  publication: ICCAD 2025
+
+- name: Md. Jubayar Alam Rafi
+  institution: Noakhali Science and Technology University
+  publication: Food Science & Nutrition 2025
+
