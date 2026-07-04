@@ -419,20 +419,36 @@
 }
 .people-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(420px,1fr));
-    gap:25px;
-    margin-bottom:40px;
+    grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
 }
 
 .person-card{
-    border:1px solid #ddd;
-    border-radius:12px;
-    padding:25px;
+   background: var(--global-bg-color);
+   border: 1px solid var(--global-border-color);
+   border-radius: 10px;
+   padding: 1.5rem;
+   box-shadow: 0 3px 10px rgba(0,0,0,.15);
+   transition: transform .2s ease;
+}
+.person-card:hover {
+  transform: translateY(-5px);
+}
+.person-card h3 {
+  margin-top: 0;
 }
 
+.person-card p {
+  margin: 0.5rem 0;
+}
+
+.person-card a {
+  font-weight: 600;
+}
 .person-photo{
-    width:120px;
-    height:120px;
+    width:180px;
+    height:180px;
     border-radius:50%;
     object-fit:cover;
 }
@@ -440,15 +456,34 @@
 .collab-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:20px;
+    gap:1.5rem;
+    margin: 2rem 0;
 }
 
 .collab-card{
-    border-left:5px solid #0099cc;
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    padding: 1.5rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,.15);
+    transition: transform .2s ease;
     border-radius:8px;
-    padding:18px;
-    border:1px solid #ddd;
 }
+
+.collab-card:hover {
+  transform: translateY(-5px);
+}
+.collab-card h3 {
+  margin-top: 0;
+}
+
+.collab-card p {
+  margin: 0.5rem 0;
+}
+
+.collab-card a {
+  font-weight: 600;
+}
+
 .talk-video {
   margin: 2rem 0;
   position: relative;
