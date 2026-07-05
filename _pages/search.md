@@ -5,16 +5,17 @@ permalink: /search/
 author_profile: false
 ---
 
-# Search
 
 Search across publications, projects, blog posts, and pages.
 
-<div id="search-container">
-  <input
-    type="text"
-    id="search-input"
-    placeholder="Search..."
-    autocomplete="off">
+<div id="search"></div>
 
-  <div id="search-results"></div>
-</div>
+<script src="{{ '/pagefind/pagefind-ui.js' | relative_url }}"></script>
+
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+  new PagefindUI({
+    element: "#search"
+  });
+});
+</script>
