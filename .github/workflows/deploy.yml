@@ -33,10 +33,16 @@ jobs:
         with:
           node-version: 24
 
-      - name: Install Pagefind
-        run: npm install pagefind
+      
+      - name: Install Node dependencies
+        run: npm install   
+      
+      - name: Install Ruby Gems
+        run: bundle install
 
       - name: Build Jekyll
+       env:
+        JEKYLL_ENV: production
         run: bundle exec jekyll build
 
       - name: Build Pagefind Index
