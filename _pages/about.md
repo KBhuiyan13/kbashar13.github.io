@@ -17,12 +17,12 @@ redirect_from:
 Current Positions
 ---
 - [Brain System](https://brainsystemltd.com/)
-Machine Learning Engineer
-2026 - Present
+   - Machine Learning Engineer
+    - 2026 - Present
 
 - [Zylo](https://zylo-lab.com/)
-Big-Data Engineer
-2024-2026
+   - Big-Data Engineer
+    - 2024-2026
 
 
 Research Areas
