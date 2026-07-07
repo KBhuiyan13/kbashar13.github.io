@@ -41,10 +41,10 @@ jobs:
         run: bundle install
 
       - name: Build Jekyll
-       env:
-        JEKYLL_ENV: production
+        env:
+         JEKYLL_ENV: production
         run: bundle exec jekyll build
-
+ 
       - name: Build Pagefind Index
         run: npx pagefind --site _site
 
