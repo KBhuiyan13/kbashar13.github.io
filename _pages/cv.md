@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,71 +9,50 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Prospective Ph.D student
+## Curriculum Vitae
 
-* Royal University of Dhaka(RUD)
-  - MSc in Computer Science, 2025
+A complete and up-to-date version of my academic CV is available below.
 
-* Brac University
-  - BSc in Electrical and Electronic Engineering, 2021
+<div class="cv-buttons">
 
-Work experience
-======
-* [Brain System](https://brainsystemltd.com/)
-  - Machine Learning Engineer
-   - April, 2026 - Present
-    
-    * Duties includes: 
-    - ERP Implementation and Custom AI development.
-    - Big-Data and Data Mining and LLM model development.
-   
+<a class="cv-btn cv-view"
+   href="{{ site.baseurl }}/files/CV_MdKhairulBasharBhuiyan.pdf"
+   target="_blank">
 
-* [Zylo](https://zylo-lab.com/)
-  - Big-Data Engineer
-   - September, 2024 - December, 2025
-  
-    * Duties included: 
-    - Data Visualization, Data Pipe-line and Warehousing.
-    - Data Engineering: ETL, Streaming.
-    - Data Strategy and Architecture.
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+viewBox="0 0 16 16">
+<path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8z"/>
+<path d="M8 5a3 3 0 100 6 3 3 0 000-6z"/>
+</svg>
 
-* [Brain System](https://brainsystemltd.com/)
-  - Internship 
-   - August, 2023 - September, 2024
-  
-    * Duties included: 
-    - Data Structure and Data Pre-processing.
-    - Machine Learning Applications.
+<span>View Full CV</span>
 
-* [Control Application and Research Center(CARC)](https://www.bracu.ac.bd/departments/control-and-applications-research-centre), [Brac University](https://www.bracu.ac.bd/)
-  - Undergraduate Research Assistant
-   - September, 2021 - July, 2022
-  
-    * Duties included: 
-    - Helping the professor supervising the undergraduate thesis groups.
-    - Conducting research regarding applications of renewable energy and control systems.
-  
-  
-Skills
-======
-* Programming: Java (Basic), C (Basic), Python (Intermediate)
-* Database:  MySQL, MongoDB, NoSQL
-* Software: SolidWorks, MATLAB Simulink, IBM SPSS, IBM QISKIT, ArcGIS, Cloudera Manager, HDFS Architecture, Starburst, Apache Kafka, Confluent Kafka, Hive, Spark, LaTex 
-* IDE: Arduino, Proteus, PyCharm, Jupyter Notebook
-* Library :  Numpy, Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTourch, Django  
-* Soft Skills: Presentation Skill, Team Work, Adaptability, Communication Skill 
+</a>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+<a class="cv-btn cv-download"
+   href="{{ site.baseurl }}/files/CV_MdKhairulBasharBhuiyan.pdf"
+   download>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+viewBox="0 0 16 16">
+<path d="M.5 9.9v4.6h15V9.9h-1V13.5H1.5V9.9z"/>
+<path d="M5.354 6.146L7.5 8.293V.5h1v7.793l2.146-2.147.708.708L8 10.207 4.646 6.854z"/>
+</svg>
+
+<span>Download PDF</span>
+
+</a>
+
+</div>
+
+<iframe
+src="{{ site.baseurl }}/files/CV_MdKhairulBasharBhuiyan.pdf"
+width="100%"
+height="1100"
+style="
+border:none;
+border-radius:18px;
+box-shadow:0 20px 50px rgba(0,0,0,.45);
+background:white;
+">
+</iframe>

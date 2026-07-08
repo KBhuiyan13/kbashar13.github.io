@@ -91,3 +91,114 @@
   height: 100%;
   border: 0;
 }
+
+/* ===================================================
+   Premium CV Buttons
+=================================================== */
+
+.cv-buttons{
+
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin:35px 0;
+
+}
+
+.cv-btn{
+
+display:flex;
+align-items:center;
+gap:12px;
+
+padding:18px 34px;
+
+font-size:18px;
+font-weight:700;
+
+text-decoration:none !important;
+
+color:#f8fafc !important;
+
+background:rgba(20,25,35,.92);
+
+border:2px solid #00c8ff;
+
+border-radius:18px;
+
+backdrop-filter:blur(14px);
+
+box-shadow:
+0 0 12px rgba(0,200,255,.25),
+0 8px 20px rgba(0,0,0,.35);
+
+transition:.35s ease;
+
+}
+
+.cv-btn svg{
+
+color:#00d4ff;
+
+transition:.35s;
+
+}
+
+.cv-btn:hover{
+
+transform:translateY(-6px) scale(1.03);
+
+background:#111827;
+
+border-color:#38bdf8;
+
+box-shadow:
+0 0 18px rgba(56,189,248,.65),
+0 0 40px rgba(56,189,248,.35),
+0 15px 30px rgba(0,0,0,.45);
+
+}
+
+.cv-btn:hover svg{
+
+transform:rotate(-8deg) scale(1.15);
+
+color:white;
+
+}
+
+.cv-btn:active{
+
+transform:translateY(-2px);
+
+}
+
+.cv-view{
+
+border-left:6px solid #38bdf8;
+
+}
+
+.cv-download{
+
+border-left:6px solid #06b6d4;
+
+}
+
+@media (max-width:768px){
+
+.cv-buttons{
+
+flex-direction:column;
+
+}
+
+.cv-btn{
+
+justify-content:center;
+width:100%;
+
+}
+
+}
