@@ -96,4 +96,27 @@
       white-space: nowrap;
     }
   }
+
+  .page__footer-follow {
+  text-align: center;
+  margin-bottom: 0.35rem;
+}
+
+.page__footer-follow ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.page__footer-follow li::before {
+  display: none;
+}
+
+.page__footer-copyright {
+  text-align: center;
+}
+
+.page__footer-copyright p {
+  margin: 0.15rem 0;
+}
 }
