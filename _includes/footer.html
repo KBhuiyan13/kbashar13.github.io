@@ -1,48 +1,35 @@
 {% include base_path %}
 
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow">
-  <ul class="social-icons">
+<div class="page__footer-bar">
 
-    {% if site.author.github %}
-      <li>
-        <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">
-          <i class="fab fa-github" aria-hidden="true"></i>
-          GitHub
-        </a>
-      </li>
-    {% endif %}
+  <a href="https://github.com/{{ site.author.github }}">
+    <i class="fab fa-github"></i> GitHub
+  </a>
 
-    {% if site.author.bitbucket %}
-      <li>
-        <a href="https://bitbucket.org/{{ site.author.bitbucket }}" target="_blank" rel="noopener">
-          <i class="fab fa-bitbucket" aria-hidden="true"></i>
-          Bitbucket
-        </a>
-      </li>
-    {% endif %}
+  <span class="separator">•</span>
 
-    {% if site.atom_feed.hide != true %}
-      <li>
-        <a href="{{ '/feed.xml' | relative_url }}">
-          <i class="fas fa-rss" aria-hidden="true"></i>
-          Feed
-        </a>
-      </li>
-    {% endif %}
+  <a href="{{ site.author.googlescholar }}">
+    <i class="fas fa-graduation-cap"></i> Google Scholar
+  </a>
 
-  </ul>
-</div>
-{% endif %}
+  <span class="separator">•</span>
 
-<div class="page__footer-copyright">
-  <p>
-    &copy; {{ "now" | date: "%Y" }} {{ site.name | default: site.title }}
-  </p>
+  <a href="{{ site.author.linkedin }}">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
 
-  <p>
-    Last updated {{ "now" | date: "%Y-%m-%d" }}
-    &nbsp;|&nbsp;
-    <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
-  </p>
+  <span class="separator">•</span>
+
+  <a href="{{ site.author.orcid }}">
+    <i class="fab fa-orcid"></i> ORCID
+  </a>
+
+  <span class="separator">•</span>
+
+  © {{ "now" | date: "%Y" }} {{ site.name }}
+
+  <span class="separator">•</span>
+
+  Updated {{ "now" | date: "%Y-%m-%d" }}
+
 </div>
