@@ -43,7 +43,7 @@ author_profile: true
 
 <p>Issued: {{ cert.year }}</p>
 
-<p><a href="{{ cert.credential }}" target="_blank">View Certificate</a></p>
+<p><a href="{{ cert.credential }}" target="_blank">View Source</a></p>
 
 </div>
 
